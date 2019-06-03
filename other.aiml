@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<meta name="author" content="Seyana"/>
+<meta name="language" content="zh"/>
+
+<category>
+<pattern>再见</pattern>
+<template>
+<random>
+  <li>再见，您有什么问题可以再来问我</li>
+  <li>好的，您有什么问题可以再来问我</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>谢谢</pattern>
+<template>
+<random>
+  <li>不用谢，希望您能选择大连理工大学</li>
+  <li>不客气，希望您能选择大连理工大学</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>谢谢 *</pattern>
+<template>
+  <srai>谢谢</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 谢谢 *</pattern>
+<template>
+  <srai>谢谢</srai>
+</template>
+</category>
+
+<category>
+<pattern>你好</pattern>
+<template>
+<random>
+　　　<li>您好，这里是大连理工大学招生咨询处，请问您有什么问题</li>
+　　　<li>您好，请问您有什么问题</li>
+　　　<li>您好，这里是大连理工大学招生咨询处，我来为您解答招生问题</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>*笨*</pattern>
+<template>很抱歉让您失望了。我会加油学习的。</template>
+</category>
+
+<category>
+<pattern>*傻*</pattern>
+<template>对不起。我还不够聪明，但我不会不断努力的。</template>
+</category>
+
+<category>
+<pattern>*好棒*</pattern>
+<template>谢谢。其实我还有很多不足呢。三人行，必有我师，从您这里我也学了很多呢。</template>
+</category>
+
+<category>
+<pattern>*厉害*</pattern>
+<template>谢谢夸奖，我知道自己还不够好。希望您能教我一些知识呢。</template>
+</category>
+
+<category>
+<pattern>* 机器人 *</pattern>
+<template>您可真聪明，没错，我是一个机器人</template>
+</category>
+
+<category>
+<pattern>什么</pattern>
+<template>对不起，是我误解你的意思了吗，可以请你换个问法吗</template>
+</category>
+
+<category>
+<pattern>* 说什么</pattern>
+<template>
+  <srai>什么</srai>
+</template>
+</category>
+
+<category>
+<pattern>*说什么*</pattern>
+<template>
+  <srai>什么</srai>
+</template>
+</category>
+
+<category>
+<pattern>什么意思</pattern>
+<template>
+  <srai>什么</srai>
+</template>
+</category>
+
+<category>
+<pattern>什么意思*</pattern>
+<template>
+  <srai>什么</srai>
+</template>
+</category>
+
+
+</aiml>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<meta name="author" content="Seyana"/>
+<meta name="language" content="zh"/>
+
+<category>
+<pattern>学校</pattern>
+<template>我们大连理工大学是国家“985工程”、“211工程”重点建设高校，国家双一流高校，又坐落于海滨城市大连，风景优美，气候适宜，对您来说绝对是一个不错的选择。</template>
+</category>
+
+<category>
+<pattern>* 学校好不好 *</pattern>
+<template>
+  <srai>学校</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 学校怎么样 *</pattern>
+<template>
+  <srai>学校</srai>
+</template>
+</category>
+
+<category>
+<pattern>介绍一下 * 学校 * </pattern>
+<template>
+  <srai>学校</srai>
+</template>
+</category>
+
+<category>
+<pattern> * 介绍一下 * 学校 * </pattern>
+<template>
+  <srai>学校</srai>
+</template>
+</category>
+
+<category>
+<pattern>伙食</pattern>
+<template>学校食堂的伙食很好，菜品量足又实惠，想吃什么口味的都有，也有为特殊需要的同学们准备的清真食堂等</template>
+</category>
+
+<category>
+<pattern>* 伙食 *</pattern>
+<template>
+  <srai>伙食</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 食堂 * 吃 *</pattern>
+<template>
+  <srai>伙食</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 食堂 * 饭 *</pattern>
+<template>
+  <srai>伙食</srai>
+</template>
+</category>
+
+<category>
+<pattern>食堂</pattern>
+<template>我们大工一共有7个食堂哟，其中有5个食堂在凌水校区，1个在开发区软件学院，1个在盘锦校区。校园内还有美食广场，绝对让你吃个痛快</template>
+</category>
+
+<category>
+<pattern>* 食堂 *</pattern>
+<template>
+  <srai>食堂</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 几 * 食堂 *</pattern>
+<template>
+  <srai>食堂</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 食堂 * 几 *</pattern>
+<template>
+  <srai>食堂</srai>
+</template>
+</category>
+
+<category>
+<pattern>米饭</pattern>
+<template>学生们是吃得到米饭的，这个您放心</template>
+</category>
+
+<category>
+<pattern>* 吃 * 米饭 *</pattern>
+<template>
+  <srai>米饭</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 吃 * 米饭</pattern>
+<template>
+  <srai>米饭</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 米饭吃 *</pattern>
+<template>
+  <srai>米饭</srai>
+</template>
+</category>
+
+<category>
+<pattern>自习室</pattern>
+<template>学校的自习室数量非常多，除了预约占用以外学生们可以自由使用，开放时间基本为早上6点到晚上10点左右
+</template>
+</category>
+
+<category>
+<pattern>自习室*</pattern>
+<template>
+  <srai>自习室</srai>
+</template>
+</category>
+
+<category>
+<pattern>*自习室*</pattern>
+<template>
+  <srai>自习室</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>图书馆</pattern>
+<template>大连理工大学本部有两个图书馆，软件学院一个，盘锦校区一个。图书馆的详细情况可以访问我校图书馆官网：http://lib.dlut.edu.cn/</template>
+</category>
+
+<category>
+<pattern>图书馆*</pattern>
+<template>
+  <srai>图书馆</srai>
+</template>
+</category>
+
+<category>
+<pattern>*图书馆*</pattern>
+<template>
+  <srai>图书馆</srai>
+</template>
+</category>
+
+<category>
+<pattern>阳台</pattern>
+<template>我们大部分的寝室都配有阳台，小部分没有阳台的寝室面积会相应增加</template>
+</category>
+
+<category>
+<pattern>* 有 * 阳台 *</pattern>
+<template>
+  <srai>阳台</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 有阳台 *</pattern>
+<template>
+  <srai>阳台</srai>
+</template>
+</category>
+
+<category>
+<pattern>晒被子</pattern>
+<template>同学们可以在宿舍阳台上晾晒衣物，同时我们在公共走廊以及中心花园也为同学们准备了晾晒衣物用的挂线</template>
+</category>
+
+<category>
+<pattern>* 晒 *</pattern>
+<template>
+  <srai>晒被子</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 晒被子 *</pattern>
+<template>
+  <srai>晒被子</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 晒被子</pattern>
+<template>
+  <srai>晒被子</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 晾衣服 *</pattern>
+<template>
+  <srai>晒被子</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 晾衣服</pattern>
+<template>
+  <srai>晒被子</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 热水 *</pattern>
+<template>每栋宿舍楼，教学楼以及图书馆内都有温开水供应</template>
+</category>
+
+<category>
+<pattern>师资</pattern>
+<template>学校现有教职工4002人，其中专任教师2511人；学校有中国科学院和中国工程院院士12人、瑞典皇家工程院院士1人，兼职教师中的两院院士40人，国务院学位委员会学科评议组成员11人等，具体可参见学校官网介绍https://www.dlut.edu.cn/xxgk/xxjj.htm</template>
+</category>
+
+<category>
+<pattern>* 师资 *</pattern>
+<template>
+  <srai>师资</srai>
+</template>
+</category>
+
+<category>
+<pattern>床大小</pattern>
+<template>寝室里床的规格是190cm*90cm</template>
+</category>
+
+<category>
+<pattern>* 床 * 大 *</pattern>
+<template>
+  <srai>床大小</srai>
+</template>
+</category>
+
+<category>
+<pattern>床 * 大 *</pattern>
+<template>
+  <srai>床大小</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 床 * 大</pattern>
+<template>
+  <srai>床大小</srai>
+</template>
+</category>
+
+<category>
+<pattern>学习</pattern>
+<template>大连有很多高校，有一句在高校间广泛流传的话叫："学在大工"。平时自习室和图书馆里总有同学在自习，学习氛围十分浓厚。</template>
+</category>
+
+<category>
+<pattern>宿舍</pattern>
+<template>本科生宿舍是4人一间，上床下桌，有独立卫生间和洗漱台，寝室内有wifi全覆盖和有线网接口，在全国的高校中算是非常不错的环境了</template>
+</category>
+
+<category>
+<pattern>* 宿舍环境 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>宿舍环境 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>寝室环境 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 寝室环境 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 宿舍 * 多少 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 寝室 * 多少 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 宿舍多少 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 寝室多少 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 宿舍 * 几 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 宿舍几 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 寝室 * 几 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 寝室几 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 几 * 屋 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>独浴</pattern>
+<template>学生寝室里有独立卫生间但没有独立浴室。学校设有公共浴室供学生使用。（但是偷偷告诉你，可以在寝室里把热水接来，用冲澡神器冲澡哟）</template>
+</category>
+
+<category>
+<pattern>* 独浴 *</pattern>
+<template>
+  <srai>独浴</srai>
+</template>
+</category>
+
+<category>
+<pattern>*独*浴*</pattern>
+<template>
+  <srai>独浴</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 寝室 * 浴 *</pattern>
+<template>
+  <srai>独浴</srai>
+</template>
+</category>
+
+<category>
+<pattern>寝室 * 浴 *</pattern>
+<template>
+  <srai>独浴</srai>
+</template>
+</category>
+
+<category>
+<pattern>交通</pattern>
+<template>学校周围交通都很方便，出门就可以到公交，完全满足日常生活的需要。</template>
+</category>
+
+<category>
+<pattern>* 交通 *</pattern>
+<template>
+  <srai>交通</srai>
+</template>
+</category>
+
+<category>
+<pattern>交通 *</pattern>
+<template>
+  <srai>交通</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 社团 *</pattern>
+<template>学校拥有丰富的社团活动，有文学社、书法社等文学爱好者的聚集地，有羽毛球社、网球社、乒乓球社等体育爱好者的天堂，还有中英文辩论协会、轮滑社、漫研社等等社团，只要你想到的社团这里都有，如果没有，你也可以通过召集一群志同道合的朋友，申请一个新的社团！</template>
+</category>
+
+<category>
+<pattern>奖学金</pattern>
+<template>学校奖学金政策公平、公正、公开，涉及到学习奖学金、社会工作奖学金、精神文明奖学金、文体活动奖学金、科技创新奖学金等各方面，只要努力，就一定可以得到！</template>
+</category>
+
+<category>
+<pattern>奖学金 *</pattern>
+<template>
+  <srai>奖学金</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 奖学金 *</pattern>
+<template>
+  <srai>奖学金</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 菜 *</pattern>
+<template>
+学校食堂的菜品满足大部分学生的需求，并且学校食堂内有建议处，食堂会根据学生们的建议改进菜品，一切以满足学生需求为目标。
+</template>
+</category>
+
+</aiml>
