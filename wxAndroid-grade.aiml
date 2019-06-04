@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<meta name="author" content="Seyana"/>
+<meta name="language" content="zh"/>
+
+<category>
+<pattern>学校</pattern>
+<template>我们大连理工大学是国家“985工程”、“211工程”重点建设高校，国家双一流高校，又坐落于海滨城市大连，风景优美，气候适宜，对您来说绝对是一个不错的选择。</template>
+</category>
+
+<category>
+<pattern>* 学校好不好 *</pattern>
+<template>
+  <srai>学校</srai>
+</template>
+</category>
+
+</aiml>

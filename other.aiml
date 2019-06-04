@@ -51,6 +51,20 @@
 </category>
 
 <category>
+<pattern>你好*</pattern>
+<template>
+  <srai>你好</srai>
+</template>
+</category>
+
+<category>
+<pattern>在吗</pattern>
+<template>
+  您好我在，您有什么问题
+</template>
+</category>
+
+<category>
 <pattern>*笨*</pattern>
 <template>很抱歉让您失望了。我会加油学习的。</template>
 </category>

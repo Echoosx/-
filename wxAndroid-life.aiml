@@ -25,6 +25,13 @@
 </category>
 
 <category>
+<pattern>* 学校怎么样</pattern>
+<template>
+  <srai>学校</srai>
+</template>
+</category>
+
+<category>
 <pattern>介绍一下 * 学校 * </pattern>
 <template>
   <srai>学校</srai>
@@ -33,6 +40,13 @@
 
 <category>
 <pattern> * 介绍一下 * 学校 * </pattern>
+<template>
+  <srai>学校</srai>
+</template>
+</category>
+
+<category>
+<pattern> * 介绍一下 * 学校</pattern>
 <template>
   <srai>学校</srai>
 </template>
@@ -51,7 +65,21 @@
 </category>
 
 <category>
-<pattern>* 食堂 * 吃 *</pattern>
+<pattern>伙食 *</pattern>
+<template>
+  <srai>伙食</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 食堂吃 *</pattern>
+<template>
+  <srai>伙食</srai>
+</template>
+</category>
+
+<category>
+<pattern>食堂吃 *</pattern>
 <template>
   <srai>伙食</srai>
 </template>
@@ -91,6 +119,13 @@
 </category>
 
 <category>
+<pattern>食堂 * 几 *</pattern>
+<template>
+  <srai>食堂</srai>
+</template>
+</category>
+
+<category>
 <pattern>米饭</pattern>
 <template>学生们是吃得到米饭的，这个您放心</template>
 </category>
@@ -111,6 +146,13 @@
 
 <category>
 <pattern>* 米饭吃 *</pattern>
+<template>
+  <srai>米饭</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 米饭吃</pattern>
 <template>
   <srai>米饭</srai>
 </template>
@@ -188,6 +230,20 @@
 </category>
 
 <category>
+<pattern>晒 *</pattern>
+<template>
+  <srai>晒被子</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 晒</pattern>
+<template>
+  <srai>晒被子</srai>
+</template>
+</category>
+
+<category>
 <pattern>* 晒被子 *</pattern>
 <template>
   <srai>晒被子</srai>
@@ -216,8 +272,29 @@
 </category>
 
 <category>
+<pattern>热水</pattern>
+<template>每栋宿舍楼，教学楼以及图书馆内都有温开水供应的饮水机器</template>
+</category>
+
+<category>
 <pattern>* 热水 *</pattern>
-<template>每栋宿舍楼，教学楼以及图书馆内都有温开水供应</template>
+<template>
+  <srai>热水</srai>
+</template>
+</category>
+
+<category>
+<pattern>热水 *</pattern>
+<template>
+  <srai>热水</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 热水</pattern>
+<template>
+  <srai>热水</srai>
+</template>
 </category>
 
 <category>
@@ -227,6 +304,13 @@
 
 <category>
 <pattern>* 师资 *</pattern>
+<template>
+  <srai>师资</srai>
+</template>
+</category>
+
+<category>
+<pattern>师资 *</pattern>
 <template>
   <srai>师资</srai>
 </template>
@@ -259,13 +343,55 @@
 </category>
 
 <category>
+<pattern>* 床够 *</pattern>
+<template>
+  <srai>床大小</srai>
+</template>
+</category>
+
+<category>
 <pattern>学习</pattern>
 <template>大连有很多高校，有一句在高校间广泛流传的话叫："学在大工"。平时自习室和图书馆里总有同学在自习，学习氛围十分浓厚。</template>
 </category>
 
 <category>
+<pattern>* 风气 *</pattern>
+<template>
+  <srai>学习</srai>
+</template>
+</category>
+
+<category>
 <pattern>宿舍</pattern>
-<template>本科生宿舍是4人一间，上床下桌，有独立卫生间和洗漱台，寝室内有wifi全覆盖和有线网接口，在全国的高校中算是非常不错的环境了</template>
+<template>本科生宿舍是4人一间，上床下桌，有独立卫生间和洗漱台，宿舍内有wifi全覆盖和有线网接口，在全国的高校中算是非常不错的环境了</template>
+</category>
+
+<category>
+<pattern>宿舍条件 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 宿舍条件 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>寝室条件 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 寝室条件 *</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
 </category>
 
 <category>
@@ -360,6 +486,20 @@
 </category>
 
 <category>
+<pattern>* 几 * 屋</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
+<pattern>几 * 屋</pattern>
+<template>
+  <srai>宿舍</srai>
+</template>
+</category>
+
+<category>
 <pattern>独浴</pattern>
 <template>学生寝室里有独立卫生间但没有独立浴室。学校设有公共浴室供学生使用。（但是偷偷告诉你，可以在寝室里把热水接来，用冲澡神器冲澡哟）</template>
 </category>
@@ -438,8 +578,145 @@
 <category>
 <pattern>* 菜 *</pattern>
 <template>
-学校食堂的菜品满足大部分学生的需求，并且学校食堂内有建议处，食堂会根据学生们的建议改进菜品，一切以满足学生需求为目标。
+学校食堂的菜品满足大部分学生的需求，并且学校食堂有建议处，会根据学生们的建议改进菜品，一切以满足学生需求为目标。
 </template>
 </category>
+
+<category>
+<pattern>男女比例</pattern>
+<template>
+  大连理工是理工科高校，男女比例在2：1以上，如果你是女生，在这里一定有一款适合你的小哥哥。如果你是男生也不用灰心，我们管理经济学部，人文学院，外语学院的漂亮小姐姐可多啦！
+</template>
+</category>
+
+<category>
+<pattern>* 男女比例 *</pattern>
+<template>
+  <srai>男女比例</srai>
+</template>
+</category>
+
+<category>
+<pattern>男女比例 *</pattern>
+<template>
+  <srai>男女比例</srai>
+</template>
+</category>
+
+<category>
+<pattern>对象 *</pattern>
+<template>
+  <srai>男女比例</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 对象 *</pattern>
+<template>
+  <srai>男女比例</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 对象</pattern>
+<template>
+  <srai>男女比例</srai>
+</template>
+</category>
+
+<category>
+<pattern>男朋友</pattern>
+<template>大连理工是理工科高校，男女比例在2：1以上，在这里一定有一款适合你的小哥哥。</template>
+</category>
+
+<category>
+<pattern>女朋友</pattern>
+<template>当然没问题，我们这边管理经济学部，人文学院，外语学院的漂亮小姐姐可多啦~</template>
+</category>
+
+<category>
+<pattern>* 找男朋友* </pattern>
+<template>
+  <srai>男朋友</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 找*男朋友* </pattern>
+<template>
+  <srai>男朋友</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 找男朋友</pattern>
+<template>
+  <srai>男朋友</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 男朋友 * 找 * </pattern>
+<template>
+  <srai>男朋友</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 男朋友 * 找</pattern>
+<template>
+  <srai>男朋友</srai>
+</template>
+</category>
+
+<category>
+<pattern>男朋友 * 找</pattern>
+<template>
+  <srai>男朋友</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 找女朋友* </pattern>
+<template>
+  <srai>女朋友</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 找*女朋友* </pattern>
+<template>
+  <srai>女朋友</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 找女朋友</pattern>
+<template>
+  <srai>女朋友</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 女朋友 * 找 * </pattern>
+<template>
+  <srai>女朋友</srai>
+</template>
+</category>
+
+<category>
+<pattern>* 女朋友 * 找</pattern>
+<template>
+  <srai>女朋友</srai>
+</template>
+</category>
+
+<category>
+<pattern>女朋友 * 找</pattern>
+<template>
+  <srai>女朋友</srai>
+</template>
+</category>
+
 
 </aiml>

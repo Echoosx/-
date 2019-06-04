@@ -13,6 +13,7 @@ import Kernel
 alice = Kernel.Kernel()
 alice.learn("other.aiml")
 alice.learn("wxAndroid-life.aiml")
+alice.learn("wxAndroid-grade.aiml")
 
 while True:
     print(alice.respond(input('Alice请您提问...>>')))
